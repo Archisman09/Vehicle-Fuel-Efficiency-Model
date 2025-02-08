@@ -1,9 +1,11 @@
 ### **Car MPG Predictor 🚗**  
-A **Streamlit-based web app** that predicts **Miles Per Gallon (MPG)** for a car based on its specifications using a **Machine Learning model** trained on historical car data from 1970-1982.
+A **Streamlit-based web app** that predicts **Miles Per Gallon (MPG)** for a car based on its specifications using a **Machine Learning model** trained on historical car data from 1970-1982.  
+
+🔗 **Live Demo**: [MPG Predictor App](https://mpg-predictor.streamlit.app/)  
 
 ---
 
-## 📌 **Features**
+## 📌 **Features**  
 ✅ Predicts **MPG** based on user inputs.  
 ✅ Supports **batch predictions** from CSV files.  
 ✅ Uses **scikit-learn model** for regression.  
@@ -12,28 +14,28 @@ A **Streamlit-based web app** that predicts **Miles Per Gallon (MPG)** for a car
 
 ---
 
-## 🚀 **How to Run Locally**
-### **1️⃣ Clone the Repository**
+## 🚀 **How to Run Locally**  
+### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/Archisman09/Vehicle-Fuel-Efficiency-Model.git
+cd Vehicle-Fuel-Efficiency-Model
 ```
 
-### **2️⃣ Install Dependencies**
+### **2️⃣ Install Dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Run the Streamlit App**
+### **3️⃣ Run the Streamlit App**  
 ```bash
 streamlit run app.py
 ```
 
 ---
 
-## 📂 **Project Structure**
+## 📂 **Project Structure**  
 ```
-📂 Car-MPG-Predictor
+📂 Vehicle-Fuel-Efficiency-Model
 │-- app.py               # Main Streamlit app
 │-- model.pkl            # Trained ML model (Pickle file)
 │-- scaler.pkl           # StandardScaler for preprocessing
@@ -44,34 +46,37 @@ streamlit run app.py
 
 ---
 
-## 🖥️ **Web App Interface**
-### **🔹 Input Section**
-- Select **cylinders, displacement, horsepower, weight, acceleration, model year, and origin**.
-- Click **Predict MPG** to see results.
+## 🖥️ **Web App Interface**  
+### **🔹 Input Section**  
+- Select **cylinders, displacement, horsepower, weight, acceleration, model year, and origin**.  
+- Click **Predict MPG** to see results.  
 
-### **📁 Batch Prediction**
-- Upload a **CSV file** with multiple car specifications.
-- The app will predict **MPG** for all entries.
-
----
-
-## 📊 **Machine Learning Model**
-- Trained on **historical car data (1970-1982)**.
-- Uses **scikit-learn's regression model**.
-- Feature scaling applied via **StandardScaler**.
+### **📁 Batch Prediction**  
+- Upload a **CSV file** with multiple car specifications.  
+- The app will predict **MPG** for all entries.  
 
 ---
 
-## 🌐 **Deploying on Streamlit Cloud**
-1. Upload your project to **GitHub**.
-2. Visit **[Streamlit Cloud](https://share.streamlit.io/)**.
-3. Select your **repository** and **branch**.
-4. Set `app.py` as the main file.
-5. Click **"Deploy"**.
+## 📊 **Machine Learning Model**  
+- Trained on **historical car data (1970-1982)**.  
+- Uses **scikit-learn's regression model**.  
+- Feature scaling applied via **StandardScaler**.  
 
 ---
 
-## 🛠 **Tech Stack**
+## 🌐 **Deploying on Streamlit Cloud**  
+🔗 **Live Deployment**: [MPG Predictor App](https://mpg-predictor.streamlit.app/)  
+
+To deploy your own version:  
+1. Upload your project to **GitHub**.  
+2. Visit **[Streamlit Cloud](https://share.streamlit.io/)**.  
+3. Select your **repository** and **branch**.  
+4. Set `app.py` as the main file.  
+5. Click **"Deploy"**.  
+
+---
+
+## 🛠 **Tech Stack**  
 - **Frontend:** Streamlit  
 - **Backend:** Scikit-learn  
 - **Data Processing:** Pandas, NumPy  
@@ -79,12 +84,12 @@ streamlit run app.py
 
 ---
 
-## ✨ **Contributions**
-Contributions are welcome! Feel free to submit **issues** or **pull requests**.
+## ✨ **Contributions**  
+Contributions are welcome! Feel free to submit **issues** or **pull requests**.  
 
 ---
 
-## 📜 **License**
-This project is licensed under the **MIT License**.
+## 📜 **License**  
+This project is licensed under the **MIT License**.  
 
 ---
